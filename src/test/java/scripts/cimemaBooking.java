@@ -61,7 +61,7 @@ public class cimemaBooking extends BaseTest{
         //Di click button mua ve
         WebElement bookticket = driver.findElement(By.xpath("//a[(@href ='/detail/11585') and text()='MUA VÉ']"));
         bookticket.click();
-        logger.info("da click mua ve");
+        logger.info("da click mua ve!!");
         //Chon thoi gian
         WebElement booktime = driver.findElement(By.xpath("//a[(@href ='/purchase/46703')]"));
         booktime.click();

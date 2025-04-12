@@ -23,7 +23,7 @@ public class BaseTest {
     @BeforeMethod
     @Parameters ({"browser"})
     public void setupTest(String browser){
-        logger.info("Setting up Webdriver!!...");
+        logger.info("Setting up Webdriver!!");
         DriverFactory driverFactory = new DriverFactory();
         driverFactory.setDriver(browser);
         driver = driverFactory.getDriver();
