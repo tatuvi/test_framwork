@@ -30,6 +30,7 @@ public class BaseTest {
         driver.get("https://demo1.cybersoft.edu.vn/");
         logger.info("da truy cap web thanh cong");
     }
+
     public WebDriver getDriver(){return driver;}
     void teardown(){
         driver.quit();
